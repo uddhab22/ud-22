@@ -27,7 +27,7 @@ public class Test {
 		
 		System.out.println("Creating an object of Developer Class");
 		Developer dev = new Developer();
-		dev.salary=100000;
+		dev.salary=130000;
 		dev.work();
 		dev.getPaid();
 		dev.code();
@@ -35,8 +35,17 @@ public class Test {
 		dev.ceremonies="Sprint demo, Planning, Retro, Daily Standup";
 		dev.attendsScrumMeeting();
 		
+		System.out.println("============================");
 		
+		System.out.println("Creating an object of Tester Class");
 		
+		Tester Qa = new Tester();
+		Qa.salary= 100000;
+		Qa.work();
+		Qa.getPaid();
+		Qa.ceremonies="Sprint demo, Planning, Retro, Daily Standup";
+		Qa.attendsScrumMeeting();
+		Qa.QA();
 		
 		
 		

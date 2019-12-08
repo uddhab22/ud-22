@@ -47,13 +47,13 @@ public class Car {
 		}
 
 		public double calculateSalePrice() {
-
+			double sedanPrice;
 			if (length > 20) {
-				carPrice = carPrice - (carPrice * 0.05);
+				sedanPrice = carPrice - (carPrice * 0.05);
 			} else {
-				carPrice = carPrice - (carPrice * 0.1);
+				sedanPrice = carPrice - (carPrice * 0.1);
 			}
-			return carPrice;
+			return sedanPrice;
 		}
 	}
 
@@ -67,13 +67,13 @@ public class Car {
 		}
 
 		public double calculateSalePrice() {
-
+			double truckPrice;
 			if (weight > 2000) {
-				carPrice = carPrice * 0.90;
+				truckPrice = carPrice * 0.90;
 			} else {
-				carPrice = carPrice * 0.80;
+				truckPrice = carPrice * 0.80;
 			}
-			return carPrice;
+			return truckPrice;
 		}
 	}
 	

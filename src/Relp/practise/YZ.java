@@ -1,32 +1,14 @@
 package Relp.practise;
 
-import java.util.Scanner;
-
-public class YZ {
-	public static void main(String[] args) {
-	    Scanner sc = new Scanner(System.in); 
-	    System.out.println("Enter the browser name to proceed further with execution");
-	    String browser = sc.nextLine(); 
-	   
-	   if(browser.equals("ChRoME")){
-			     System.out.println("Proceed with Chrome browser");
-			   }
-			   else if(browser.equals("FireFOX")){
-			     System.out.println("Proceed with Firefox browser");
-			   }
-			   else if(browser.equals("IE")){
-			     System.out.println("Proceed with IE browser");
-			   }
-			   else {
-			     System.out.println("Invalid browser");
-			   }
-			   
-			   
-			   
-			  }
-			}
-	   
-	   
+class T {
+int t = 20;
+}
+class xyz{
+public static void main(String args[]) {
+T t1 = new T();
+System.out.println(t1.t);
+}
+}	   
 	   
 	   
 	   

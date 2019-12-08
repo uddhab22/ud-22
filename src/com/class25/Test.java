@@ -34,6 +34,7 @@ public class Test {
 		dev.artifacts="Sprint Backlog";
 		dev.ceremonies="Sprint demo, Planning, Retro, Daily Standup";
 		dev.attendsScrumMeeting();
+		dev.employeeID=1001;
 		
 		System.out.println("============================");
 		

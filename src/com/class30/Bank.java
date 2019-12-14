@@ -32,6 +32,7 @@ class BOA extends Finance implements Bank, Trustabel{
 	}
 }
 class CapitalOne extends Finance implements Bank, Trustabel{
+	
 
 	@Override
 	public void checking() {
